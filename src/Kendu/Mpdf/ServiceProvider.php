@@ -4,7 +4,7 @@ namespace Kendu\Mpdf;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Config;
 
-include base_path('vendor/mpdf/mpdf/mpdf.php');
+include base_path('vendor/mpdf/mpdf/src/Mpdf.php');
 
 
 class ServiceProvider extends BaseServiceProvider {
